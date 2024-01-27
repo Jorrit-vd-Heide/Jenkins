@@ -2,7 +2,6 @@
 pipeline {
     agent { 
         docker {
-            cloud 'Jenkins test' 
             image 'php:8.3.1-alpine3.19' 
             } 
         }
